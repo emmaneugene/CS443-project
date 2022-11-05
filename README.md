@@ -1,5 +1,15 @@
 # CVE-2022-0847: Dirty Pipe Vulnerability
 
+## Team Members:
+
+- Carmen Yip
+- Cheyenne Jan Lee
+- Chong Jie Mi
+- Emmanuel Oh
+- Lindy Lim
+
+## Overview
+
 A simple demonstration of the `CVE-2022-0847: Dirty Pipe` exploit that affected
 Linux kernel versions above 5.8
 
@@ -9,10 +19,8 @@ without a kernel patch. Make sure that execution permissons are set on the
 
 Alternatively, `setup.sh` does all of this for you 🙂
 
-## Team Members:
+## Requirements
 
-- Carmen Yip
-- Cheyenne Jan Lee
-- Chong Jie Mi
-- Emmanuel Oh
-- Lindy Lim
+- `git` - For cloning this repository
+
+- `gcc` - For compiling the source code
